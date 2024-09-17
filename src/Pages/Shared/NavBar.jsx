@@ -14,6 +14,8 @@ const NavBar = () => {
                 <li><NavLink className={({ isActive }) => isActive ? 'btn btn-primary gtn-sm' : 'btn  btn-sm'} to="/">Home</NavLink></li>
                 <li><NavLink className={({ isActive }) => isActive ? 'btn btn-primary gtn-sm' : 'btn  btn-sm'} to="/contact">Contact</NavLink></li>
                 <li><NavLink className={({ isActive }) => isActive ? 'btn btn-primary gtn-sm' : 'btn  btn-sm'} to="services">Services</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? 'btn btn-primary gtn-sm' : 'btn  btn-sm'} to="services">gallery</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? 'btn btn-primary gtn-sm' : 'btn  btn-sm'} to="services">blog</NavLink></li>
                 {
                     user?.email ? <>
                         <li><NavLink className={({ isActive }) => isActive ? 'btn btn-primary gtn-sm' : 'btn  btn-sm'} to="/admin/service">Dashboard</NavLink></li>

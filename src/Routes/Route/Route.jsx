@@ -5,7 +5,7 @@ import Home from "../../Pages/Home/Home";
 import Contact from "../../Pages/Contact/Contact";
 import Login from "../../Pages/Login";
 import Register from "../../Pages/Register";
-import MainLayOut from "../../LayOuts/MainLayOut/MainLayOut";
+
 import AdminLayOut from "../../LayOuts/AdminLayOut";
 import Service from "../../Pages/Dasboard/Service";
 import AllServices from "../../Pages/Home/AllServices";
